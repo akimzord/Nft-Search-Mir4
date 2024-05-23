@@ -3,13 +3,16 @@
 Este script Python coleta informações de NFTs disponíveis para venda na plataforma MIR4 Global. Ele faz isso enviando requisições periódicas a uma API e exibindo os resultados no console. Abaixo está uma explicação detalhada sobre o funcionamento do script.
 
 #Requisitos
+
 Python 3
 Biblioteca requests
 Você pode instalar a biblioteca requests usando o pip: pip install requests
 
 #Como o Script Funciona
+
 URL da API: O script faz uma requisição GET para https://webapi.mir4global.com/nft/lists.
 Parâmetros de Consulta: Definem os critérios de busca para NFTs à venda, incluindo tipo de lista, classe, nível, poder, preço, ordenação e idioma.
+
 Cabeçalhos: Incluem informações sobre o agente de usuário e outras configurações de segurança.
 Tratamento de Exceções: Lida com erros que possam ocorrer durante a requisição HTTP.
 Loop Infinito: O script entra em um loop infinito, onde ele:
