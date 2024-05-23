@@ -28,7 +28,7 @@ def obter_informacoes():
 
     try:
         response = requests.get(url, headers=headers, params=querystring)
-        response.raise_for_status()  # Raises exception for 4XX/5XX status codes
+        response.raise_for_status()  
         data = response.json()
 
         if "data" in data and "lists" in data["data"] and data["data"]["lists"]:
