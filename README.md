@@ -1,4 +1,5 @@
 #Script de Coleta de Informações de NFTs
+
 Este script Python coleta informações de NFTs disponíveis para venda na plataforma MIR4 Global. Ele faz isso enviando requisições periódicas a uma API e exibindo os resultados no console. Abaixo está uma explicação detalhada sobre o funcionamento do script.
 
 #Requisitos
